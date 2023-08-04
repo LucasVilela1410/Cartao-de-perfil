@@ -1,0 +1,73 @@
+html{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+
+    max-width: 100%;
+    height: 618px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #fff;
+
+    width: 250px;
+    height: 255px;
+    padding: 20px;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.imagem{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.info{
+    text-align: center;
+
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.negrito{
+    font-weight: 700;
+}
+
+span{
+    color: hsl(227, 10%, 46%);
+}
+
+.paragrafos{
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+.detalhes{
+    display: flex;
+    
+    align-items: center;
+    
+    border-top: 2px solid hsl(226, 32%, 92%);
+    
+    padding: 15px 22px;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px;
+}
